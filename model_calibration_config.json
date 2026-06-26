@@ -1,0 +1,12 @@
+{
+  "class_weights": [
+    0.5,
+    0.7999999999999999,
+    1.0999999999999999
+  ],
+  "temperature": 0.5,
+  "threshold": 0.2,
+  "accuracy_before_calibration": 0.333,
+  "accuracy_after_calibration": 0.37,
+  "notes": "Apply these calibration parameters for improved predictions"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "models/best_stroke.pth",
+  "timestamp": "2025-11-13T23:20:58.385985",
+  "device": "cpu",
+  "total_images": 600,
+  "accuracy": 0.3333333333333333,
+  "correct_predictions": 200,
+  "misclassifications": 400,
+  "mean_confidence": 0.5370536967118581,
+  "per_class_accuracy": {
+    "Hemorrhagic": 1.0,
+    "Ischemic": 0.0,
+    "NoStroke": 0.0
+  }
+}
