@@ -10,6 +10,9 @@ This project was developed as part of the Bachelor of Engineering in Computer Sc
 - Swasthik Gambheer
 - Vignesh Prabhu
 
+## Live Demo
+- 🌐 **Web Application**: [https://brain-stroke-detections.streamlit.app/](https://brain-stroke-detections.streamlit.app/)
+
 ## Overview
 
 Brain stroke is a critical medical emergency that requires timely and accurate diagnosis to reduce the risk of severe neurological damage and mortality. Traditional diagnostic methods depend on expert interpretation of medical imaging, which can be time-consuming and prone to human error. 
@@ -101,7 +104,7 @@ The proposed CNN-based model has undergone extensive unit, integration, and syst
 
 ## Technologies Used
 - **Programming Language**: Python
-- **Deep Learning Frameworks**: TensorFlow, Keras
+- **Deep Learning Frameworks**: PyTorch, PyTorch Lightning, TensorFlow
 - **Computer Vision**: OpenCV
 - **Data Manipulation**: NumPy, Pandas
 - **Machine Learning Utilities**: Scikit-learn
