@@ -28,13 +28,15 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Add parent directory to path to import our modules
-sys.path.append('..')
-sys.path.append('../src')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.abspath(os.path.join(current_dir, '..'))
+sys.path.insert(0, root_dir)
+sys.path.insert(0, os.path.join(root_dir, 'src'))
 
 try:
     from model_def import ResNetClassifier, load_trained_model
-except ImportError:
-    st.error("Could not import ResNetClassifier. Make sure you're running from the project root directory.")
+except ImportError as e:
+    st.error(f"Could not import ResNetClassifier. Error: {e}")
 
 # Page configuration
 st.set_page_config(
