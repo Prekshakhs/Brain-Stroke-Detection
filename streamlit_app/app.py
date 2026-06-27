@@ -37,6 +37,7 @@ try:
     from model_def import ResNetClassifier, load_trained_model
 except ImportError as e:
     st.error(f"Could not import ResNetClassifier. Error: {e}")
+    raise e
 
 # Page configuration
 st.set_page_config(
